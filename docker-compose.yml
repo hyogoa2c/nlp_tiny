@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  python:
+    build:
+      context: .
+      dockerfile: python.dockerfile
+    image: python
+    container_name: python
+    tty: true
+    volumes:
+      - ./work:/home/work
+    working_dir: /home/work

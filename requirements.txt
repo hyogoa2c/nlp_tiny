@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+mecab-python3
+janome
+numpy
+pandas
+matplotlib
+jupyter
+ginza
+ja_ginza_electra
